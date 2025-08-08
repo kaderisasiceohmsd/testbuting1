@@ -1,5 +1,5 @@
-import streamlit as st
-from streamlit_option_menu import option_menu
+import streamlit as st # type: ignore
+from streamlit_option_menu import option_menu # type: ignore
 import requests
 from PIL import Image, ImageOps
 from io import BytesIO
