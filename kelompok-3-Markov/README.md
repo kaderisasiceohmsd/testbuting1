@@ -6,7 +6,6 @@ Berisi file config.toml untuk mengubah warna website.
 - Folder Buku Kating
 Berisi file pyhton (.py) masing-masing anggota kelompok untuk menyimpan data diri kating beserta foto bersama kating
 penambahan data diri berada dalam variabel "data_list" dan penambahan data kating berada dalam variabel "gambar_urls"
-Tutorial menambahkan data diri beserta foto: https://youtu.be/Ga1nmKOfTKc
 
 - Folder Halaman Utama
 Berisi file halaman_utama.py. file ini berguna untuk menangani tampilan utama websita. Perubahan dilakukan di 2 page yaitu Home dan About Us.
@@ -29,4 +28,9 @@ file buku kating anggota
 - File requirements.txt
 Sebuah file untuk menuliskan library python apa saja yang digunakan pada pengerjaan website ini.
 untuk mengecek versi library yang digunakan, 
-ketik pip freeze di cmd, setelah itu cari nama library yang digunakan untuk mengetahui versi library tersebut.
+ketik pip list di cmd, setelah itu cari nama library yang digunakan untuk mengetahui versi library tersebut jika tidak ada maka lakukan ini pada git bash terminal:
+python -m venv venv
+source venv/Scripts/activate
+pip install -r requirements.txt
+kemudian pip list kembali dan cek apakah versi dan package nya jika ada maka berhasil dengan baik, jika tidak atau ada error di saat instalasi requirements.txt tersebut maka sebaiknya lakukan pip install nama_package yang ada di dalam requirements.txt satu per satu
+contoh: pip install streamlit dan seterusnya
