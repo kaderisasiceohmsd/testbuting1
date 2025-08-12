@@ -198,6 +198,13 @@ elif menu == "About Us":
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
+            {
+                "nama": "Haikal",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
 
